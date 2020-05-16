@@ -171,6 +171,7 @@ let {firstName: name, secondName} = student
 
 console.log(name, secondName)
 */
+/*
 let connect = {
     userName:"Admin",
     port:  8000,
@@ -180,3 +181,76 @@ let connect = {
 let = {userName: user,port: userPort,host: userHost} = connect
 
 console.log(user,userPort, userHost)
+*/
+/*
+const arr = [1,2,3,4,5,6,7,8,9]
+
+let [,,,a,,,b,,c] = arr;
+
+console.log(d,f,h);
+*/
+/*
+let user = {
+    userName:"kolya",
+    email: "kolayy@mail.ru"
+}
+
+const msg2 = `Дорогой ${user.name} мы отправили вам на почту(${user.email}) Проверьте!`
+console.log(msg2);
+
+const htmlTMP = `
+<ul>
+    <li></li>
+    <li></li>
+</ul>
+`
+*/
+/*
+const school = {
+    type: "МШАО",
+    id: "43",
+    printcipal: "Черная Сорокина"
+}
+
+const student = {
+    name: "Артём Сергеев",
+    grade: "1.5"
+}
+
+let objectToServer = Object.assign({},school, student)
+
+console.log(school)
+
+school.type = "Лицей"
+school.id = "07"
+school.printcipal = "Левый Правый"
+*/
+/*
+const Animal = {
+    name: "",
+    sound: "",
+    say: function(){
+        console.log(this.name + " говорит" + this.sound)
+    },
+    constrct: function(name, sound){
+        this.name = name;
+        this.sound = sound;
+    }
+}
+
+const duck1 = Object.create(Animal)
+duck1.constrct("Скрудж", " деньги!")
+
+const gav = Object.create(Animal)
+gav.constrct("Гавс", " деньги Скуджа!")
+
+const pon = Object.create(Animal)
+pon.constrct("Поночка", " дядюшка Срудж!")
+
+duck1.say()
+gav.say()
+pon.say() 
+*/
+
+
+
